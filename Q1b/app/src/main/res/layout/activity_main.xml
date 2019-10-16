@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.paras.q1b.MainActivity">
+
+    <TextView
+        android:id="@+id/cie1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CIE-I" />
+
+    <EditText
+        android:id="@+id/marks1"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/cie2"
+        android:layout_below="@+id/cie1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CIE-II" />
+
+    <EditText
+        android:id="@+id/marks2"
+        android:layout_below="@+id/marks1"
+        android:layout_marginLeft="160dp"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/cie3"
+        android:layout_below="@+id/cie2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CIE-III" />
+
+    <EditText
+        android:id="@+id/marks3"
+        android:layout_below="@+id/marks2"
+        android:layout_marginLeft="160dp"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/aat"
+        android:layout_below="@+id/cie3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AAT" />
+
+    <EditText
+        android:id="@+id/marks_aat"
+        android:layout_below="@+id/marks3"
+        android:layout_marginLeft="160dp"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@android:color/holo_green_dark" />
+
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_below="@+id/marks_aat"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total" />
+
+    <TextView
+        android:id="@+id/actual_total"
+        android:layout_below="@+id/marks_aat"
+        android:layout_toRightOf="@+id/total"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+</RelativeLayout>
